@@ -1,0 +1,52 @@
+.box{
+    color: brown;
+}
+#banner{
+    /* background: url('student-studying.jpg') no-repeat 0 0; */
+    background-size: cover;
+}
+.news-post img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.news-post h3{
+    font-size: 1.35rem;
+}
+.news-post h3 a{
+    color:#e74c3c
+}
+.post-date{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.post-date:before{
+    content: "\f073";//calender icon add
+    font-family: fontAwesome;
+    padding-right: 5px;
+}
+a.readmore{
+    font-size: 14px;
+    color: #e74c3c;
+}
+a.readmore:after{
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-left: 5px;
+}
+#footer-sidebar{
+    color:#fff;
+    background: #34495e;
+    padding: 20px 0;
+}
+.footer-widget h4:after{
+    content: "";
+    background: #fff;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+}
+.footer-widget li{
+    list-style: none;
+}
+
